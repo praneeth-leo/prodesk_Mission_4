@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Cover Letter Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>ProDesk AI</h2>
+  <button class="nav-btn">Get Started</button>
+</header>
+
+<section class="hero">
+  <h1>Generate Professional Cover Letters with AI</h1>
+  <p>Create job-winning cover letters in seconds</p>
+</section>
+
+<section class="card">
+  <form id="coverForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="text" id="role" placeholder="Job Role" required>
+    <input type="text" id="company" placeholder="Company Name" required>
+    <textarea id="skills" placeholder="Your Key Skills" required></textarea>
+
+    <button type="submit" class="generate-btn">Generate Cover Letter</button>
+  </form>
+
+  <div id="outputContainer" class="hidden">
+    <h3>Your Cover Letter</h3>
+    <div id="output"></div>
+    <button id="copyBtn">Copy</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
